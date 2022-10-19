@@ -1,0 +1,25 @@
+{
+  "name": "x0_support",
+  "scripts": {
+    "test": "npx hardhat test",
+    "test:goerli": "npx hardhat test --network goerli",
+    "test:mainnet": "npx hardhat test --network mainnet",
+    "script": "npx hardhat run scripts/run_verify.ts --network goerli"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "hardhat": "^2.11.2",
+    "web3": "^1.8.0"
+  },
+  "dependencies": {
+    "alchemy-sdk": "^2.0.4",
+    "dotenv": "^16.0.2",
+    "ethers-multicall": "^0.2.3"
+  }
+}
